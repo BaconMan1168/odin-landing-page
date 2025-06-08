@@ -21,8 +21,8 @@ body{
 
 
 /*Header (Logo and Links) Selectors*/
+
 .header{
-    border-bottom: 3px solid #ddd;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
 
 
@@ -55,26 +55,35 @@ ul{
 }
 
 /*Signup-section selector*/
+
 .signup-section{
     background-color:#1F2937;
-    margin:0;
-    
+    padding:40px;
 
     display:flex;
+    justify-content:center;
+    align-items:center;
     
 }
 
+.left-elements{
+    margin-right:25px;
+
+    
+}
 
 .mission-header{
     color:#F9FAF8;
     font-size:48px;
-    margin:0px;
-    padding:0px;
+    font-weight:bold;
+    
 }
 
 .mission-text{
     font-size:18px;
     color:#F9FAF8;
+    max-width:650px;
+    margin-block: 8px;
 }
 
 button{
@@ -97,5 +106,15 @@ img{
 .benefit-img{
     width:100px;
     height:100px;
+}
+
+/*Benefits section selectors*/
+
+.benefits-header{
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align:center;
+    margin-top:16px;
 }
 
