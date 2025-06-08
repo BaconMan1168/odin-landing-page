@@ -140,3 +140,28 @@ img{
     align-items:center;
     margin:20px;
 }
+
+
+/*Quote selectors*/
+
+.inspiring-quote{
+    background-color:#e5e7eb;
+    padding:100px;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+.quote-text{
+    font-size:36px;
+    font-style:italic;
+    font-weight:200;
+    color:#1f2937;
+}
+
+.speaker{
+    font-weight:bold;
+    align-self:end;
+}
+
+
