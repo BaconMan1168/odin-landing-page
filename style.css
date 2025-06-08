@@ -29,6 +29,7 @@ body{
     justify-content: space-between;
     align-items:center;
     
+    
 }
 
 .header .logo{
@@ -59,10 +60,13 @@ ul{
 .signup-section{
     background-color:#1F2937;
     padding:40px;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.05);
+    
 
     display:flex;
     justify-content:center;
     align-items:center;
+    
     
 }
 
@@ -112,6 +116,7 @@ img{
     border:5px solid #3882F6;
     border-radius:25px;
     
+    
 }
 
 /*Benefits section selectors*/
@@ -119,6 +124,8 @@ img{
 .benefits{
     display:flex;
     justify-content:center;
+    margin-bottom:60px;
+    
 }
 
 .benefits-header{
@@ -126,7 +133,8 @@ img{
     color:#1F2937;
     font-weight: 900;
     text-align:center;
-    margin-top:16px;
+    margin:25px;
+    
 }
 
 .benefit-text{
@@ -148,6 +156,7 @@ img{
     background-color:#e5e7eb;
     padding:100px;
     
+    
     display:flex;
     flex-direction:column;
 }
@@ -164,4 +173,38 @@ img{
     align-self:end;
 }
 
+/*Signup reminder selectors*/
 
+.signup-reminder{
+    background-color: #3882F6;
+    margin:125px;
+    border:5px solid #3882F6;
+    border-radius:25px;
+    padding:25px;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.reminder-header{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:4px;
+}
+
+.reminder-button{
+    margin-right:100px;
+    border: 2px solid white;
+}
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
