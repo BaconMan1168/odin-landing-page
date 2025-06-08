@@ -90,6 +90,8 @@ button{
     height:30px;
     width:100px;
     border-radius:10px;
+    color: white;
+    background-color: #3882F6;
     
 }
 
@@ -104,11 +106,20 @@ img{
 }
 
 .benefit-img{
-    width:100px;
-    height:100px;
+    width:120px;
+    height:120px;
+    padding:8px;
+    border:5px solid #3882F6;
+    border-radius:25px;
+    
 }
 
 /*Benefits section selectors*/
+
+.benefits{
+    display:flex;
+    justify-content:center;
+}
 
 .benefits-header{
     font-size:36px;
@@ -118,3 +129,14 @@ img{
     margin-top:16px;
 }
 
+.benefit-text{
+    font-size:12px;
+    max-width:150px;
+    margin-left:20px;
+}
+
+.benefit-group{
+    display:flex;
+    align-items:center;
+    margin:20px;
+}
