@@ -1,0 +1,101 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding:0;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.header, .footer{
+    background-color:#1F2937;
+    color:#F9FAF8;
+    height:55px;
+
+    
+    
+    display:flex;
+
+
+}
+
+
+/*Header (Logo and Links) Selectors*/
+.header{
+    border-bottom: 3px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.header .logo{
+    font-size:24px;
+    font-weight:bold;
+    padding-left:20px;
+    
+}
+
+.logo{
+    color:#F9FAF8;
+    font-size:24px;
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    list-style-type: none;
+    
+    display:flex;
+    gap:16px;
+    padding-right:20px;
+    
+}
+
+/*Signup-section selector*/
+.signup-section{
+    background-color:#1F2937;
+    margin:0;
+    
+
+    display:flex;
+    
+}
+
+
+.mission-header{
+    color:#F9FAF8;
+    font-size:48px;
+    margin:0px;
+    padding:0px;
+}
+
+.mission-text{
+    font-size:18px;
+    color:#F9FAF8;
+}
+
+button{
+    height:30px;
+    width:100px;
+    border-radius:10px;
+    
+}
+
+
+
+
+/*Image selectors*/
+
+img{
+    width:480px;
+    height:291px;
+}
+
+.benefit-img{
+    width:100px;
+    height:100px;
+}
+
